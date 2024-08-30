@@ -19,7 +19,6 @@ async function main() {
     await runCommand('npm install -g pnpm', 'CMD');
     await runCommand('pnpm install', "CMD");
     await runCommand('pnpm build', "CMD");
-    await runCommand('pnpm inject', "CMD");
 }
 
 main();
